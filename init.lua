@@ -1,3 +1,15 @@
+-- INFO: Neovide Configuration
+
+if vim.g.neovide then
+  vim.o.guifont = "Victor Mono:h14" -- text below applies for VimScript
+end
+vim.g.neovide_hide_mouse_when_typing = false
+vim.g.neovide_underline_automatic_scaling = false
+vim.g.neovide_cursor_animate_in_insert_mode = true
+vim.g.neovide_cursor_vfx_mode = "torpedo"
+
+-- INFO: AstroNvim Configuration
+
 return {
   -- Configure AstroNvim updates
   updater = {
@@ -18,7 +30,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "tokyonight-night",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -37,6 +49,7 @@ return {
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
+          "markdown",
         },
       },
       disabled = { -- disable formatting capabilities for the listed language servers
