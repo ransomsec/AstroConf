@@ -1,12 +1,13 @@
 -- INFO: Neovide Configuration
 
 if vim.g.neovide then
-  vim.o.guifont = "Victor Mono:h14" -- text below applies for VimScript
+  vim.o.guifont = "Victor Mono:h9" -- text below applies for VimScript
 end
 vim.g.neovide_hide_mouse_when_typing = true
 vim.g.neovide_underline_automatic_scaling = false
 vim.g.neovide_cursor_animate_in_insert_mode = true
 vim.g.neovide_cursor_vfx_mode = "torpedo"
+vim.g.neovide_scroll_animation_far_lines = 10
 
 -- INFO: AstroNvim Configuration
 
