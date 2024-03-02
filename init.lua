@@ -9,6 +9,12 @@ vim.g.neovide_cursor_animate_in_insert_mode = true
 vim.g.neovide_cursor_vfx_mode = "torpedo"
 vim.g.neovide_scroll_animation_far_lines = 10
 
+if vim.g.neovide then
+  vim.keymap.set({ "n", "v" }, "<C-+>", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor + 0.1<CR>")
+  vim.keymap.set({ "n", "v" }, "<C-->", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor - 0.1<CR>")
+  vim.keymap.set({ "n", "v" }, "<C-0>", ":lua vim.g.neovide_scale_factor = 1<CR>")
+end
+
 -- INFO: AstroNvim Configuration
 
 return {
