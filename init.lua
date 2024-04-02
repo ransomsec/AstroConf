@@ -1,6 +1,7 @@
 -- This file simply bootstraps the installation of Lazy.nvim and then calls other files for execution
 -- This file doesn't necessarily need to be touched, BE CAUTIOUS editing this file and proceed at your own risk.
 
+-- Neovide Config Start
 if vim.g.neovide then
   -- vim.o.guifont = "Victor Mono:h14" -- text below applies for VimScript
   vim.o.guifont = "SF Mono:h14" -- text below applies for VimScript
@@ -16,6 +17,7 @@ if vim.g.neovide then
   vim.keymap.set({ "n", "v" }, "<C-->", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor - 0.1<CR>")
   vim.keymap.set({ "n", "v" }, "<C-0>", ":lua vim.g.neovide_scale_factor = 1<CR>")
 end
+-- Neovide Config End
 
 local lazypath = vim.env.LAZY or vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 if not (vim.env.LAZY or (vim.uv or vim.loop).fs_stat(lazypath)) then
