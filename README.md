@@ -17,4 +17,4 @@ git clone https://github.com/ransomsec/AstroConf ~/.config/nvim
 nvim
 ```
 
-AstroNvim [Repo](https://github.com/AstroNvim/AstroNvim)
+AstroNvim [Repo](https://github.com/AstroNvim/AstroNvim) 🌟
