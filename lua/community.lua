@@ -9,5 +9,6 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.colorscheme.nightfox-nvim" }, -- import/override with your plugins folder
   { import = "astrocommunity.recipes.heirline-clock-statusline" },
+  { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
 }
