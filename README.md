@@ -24,9 +24,11 @@ git clone https://github.com/ransomsec/AstroConf ~/.config/nvim
 nvim
 ```
 
-🌟 Preview
+## 🌟 Preview
 
 ![Astronvim][img2]
+
+---
 
 ![MySetup][img1]
 
