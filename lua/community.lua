@@ -12,4 +12,5 @@ return {
   -- { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.editing-support.true-zen-nvim" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
 }
