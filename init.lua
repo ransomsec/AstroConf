@@ -3,9 +3,10 @@
 
 -- Neovide Config Start
 if vim.g.neovide then
-  vim.o.guifont = "Victor Mono:h14" -- text below applies for VimScript
-  -- vim.o.guifont = "SF Mono:h14" -- text below applies for VimScript
+  -- vim.o.guifont = "Victor Mono:h14" -- text below applies for VimScript
+  vim.o.guifont = "SF Mono:h14" -- text below applies for VimScript
 end
+
 vim.g.neovide_hide_mouse_when_typing = true
 vim.g.neovide_underline_automatic_scaling = false
 vim.g.neovide_cursor_animate_in_insert_mode = true
