@@ -4,7 +4,7 @@
 -- Neovide Config Start
 if vim.g.neovide then
   -- vim.o.guifont = "Victor Mono:h14" -- text below applies for VimScript
-  vim.o.guifont = "SF Mono:h14" -- text below applies for VimScript
+  vim.o.guifont = "SF Mono:h18" -- text below applies for VimScript
 end
 
 vim.g.neovide_hide_mouse_when_typing = true
